@@ -1,0 +1,25 @@
+.nav {
+  padding: 20px 0px 20px 0px;
+  width: 100%; 
+  background-color: rgb(72, 88, 129);
+}
+
+li {
+  display: inline;
+  margin-left: 20px;
+}
+
+li a {
+  padding: 20px 40px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+li a:active {
+  background-color: rgb(94, 119, 148);
+}
+
+li a:hover:not(:active) {
+  background-color: rgb(94, 119, 148);
+}

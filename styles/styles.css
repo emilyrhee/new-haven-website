@@ -1,0 +1,80 @@
+body {
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+}
+
+.page-header {
+  overflow: auto;
+}
+
+.page-header img {
+  float: left;
+  width: 100px;
+  margin-left: 40px;
+}
+
+.page-header h1{
+  float: left;
+  margin-top: 30px;
+}
+
+#newhaven {
+  margin-left: 50px;
+  font-family: Verdana, Tahoma, sans-serif;
+  color: rgb(72, 88, 129);
+}
+
+footer {
+  text-align: center;
+  padding: 20px 20px;
+  font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+  background-color: rgb(72, 88, 129);
+  color: white;
+  margin-top: auto;
+}
+
+.social_icons {
+  width: 40px;
+  padding: 0px 10px;
+}
+
+#footer-text {
+  color: rgb(216, 217, 216);
+}
+
+.text-and-img {
+  display: grid;
+  align-items: start;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 200px;
+  margin-right: 200px;
+  column-gap: 50px;
+}
+
+p {
+  font-family: Verdana, Tahoma, sans-serif;
+  line-height: 1.6;
+  color: rgb(40, 40, 41);
+}
+
+#lighthouse {
+  max-width: 100%;
+  max-height: 100%;
+} 
+
+#pepe-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.p-header {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 20px;
+  color: rgb(40, 40, 41);
+}
